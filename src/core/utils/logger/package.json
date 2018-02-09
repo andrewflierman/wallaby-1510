@@ -1,0 +1,6 @@
+{
+  "private": true,
+  "name": "application-logging",
+  "main": "./logger.server.js",
+  "browser": "./logger.client.js"
+}
