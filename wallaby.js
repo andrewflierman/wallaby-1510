@@ -3,6 +3,7 @@ module.exports = function (wallaby) {
   return {
     files: [
       { pattern: 'src/**/*.js?(x)', load: false },
+      'src/**/*.json',
       { pattern: 'test/fakeContexts.js', load: false }
     ],
     tests: [
